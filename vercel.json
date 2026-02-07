@@ -2,10 +2,102 @@
   "buildCommand": "pnpm run build",
   "outputDirectory": "dist",
   "framework": null,
+  "cleanUrls": true,
+  "trailingSlash": false,
   "redirects": [
     {
       "source": "/",
       "destination": "/guides/preface/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/guides",
+      "destination": "/guides/preface/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/guides/preface",
+      "destination": "/guides/preface/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/guides/introduction",
+      "destination": "/guides/preface/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/guides/getting-started",
+      "destination": "/guides/getting-started/installation",
+      "permanent": true
+    },
+    {
+      "source": "/guides/installation",
+      "destination": "/guides/getting-started/installation",
+      "permanent": true
+    },
+    {
+      "source": "/guides/config",
+      "destination": "/guides/getting-started/configuration",
+      "permanent": true
+    },
+    {
+      "source": "/guides/environment-variables",
+      "destination": "/guides/getting-started/environment-variables",
+      "permanent": true
+    },
+    {
+      "source": "/guides/folder-structure",
+      "destination": "/guides/getting-started/folder-structure",
+      "permanent": true
+    },
+    {
+      "source": "/guides/basics",
+      "destination": "/guides/basics/routing",
+      "permanent": true
+    },
+    {
+      "source": "/guides/routing",
+      "destination": "/guides/basics/routing",
+      "permanent": true
+    },
+    {
+      "source": "/guides/controllers",
+      "destination": "/guides/basics/controllers",
+      "permanent": true
+    },
+    {
+      "source": "/guides/middleware",
+      "destination": "/guides/basics/middleware",
+      "permanent": true
+    },
+    {
+      "source": "/guides/database",
+      "destination": "/guides/database/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/guides/authentication",
+      "destination": "/guides/authentication/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/guides/security",
+      "destination": "/guides/security/authorization",
+      "permanent": true
+    },
+    {
+      "source": "/guides/views-and-templates",
+      "destination": "/guides/views-and-templates/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/guides/testing",
+      "destination": "/guides/testing/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/guides/digging-deeper",
+      "destination": "/guides/digging-deeper/emitter",
       "permanent": true
     }
   ]
