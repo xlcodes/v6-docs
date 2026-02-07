@@ -336,7 +336,7 @@ progress[value]::-webkit-progress-value {
   font-size: 14px;
   font-weight: 600;
 }
-
+/* 
 .notification_banner {
   display: flex;
   justify-content: center;
@@ -359,7 +359,7 @@ progress[value]::-webkit-progress-value {
 
 .notification_banner a {
   text-decoration: underline;
-}
+} */
 
 .header {
   top: 40px;
@@ -381,8 +381,8 @@ progress[value]::-webkit-progress-value {
   top: 40px;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .notification_banner {
     font-size: 13px;
   }
-}
+} */
